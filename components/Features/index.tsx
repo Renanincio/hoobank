@@ -28,7 +28,7 @@ export const Features = () => {
           <ul>
             <li>
               <div className="img">
-                <img src="/image/star.svg" alt="star" />
+                <img src="/image/Star.svg" alt="star" />
               </div>
               <div className="content">
                 <h4>Rewards</h4>
@@ -42,7 +42,7 @@ export const Features = () => {
 
             <li>
               <div className="img">
-                <img src="/image/shield.svg" alt="shield" />
+                <img src="/image/Shield.svg" alt="shield" />
               </div>
               <div className="content">
                 <h4>100% Secured</h4>
@@ -56,7 +56,7 @@ export const Features = () => {
 
             <li>
               <div className="img">
-                <img src="/image/send.svg" alt="Send" />
+                <img src="/image/Send.svg" alt="Send" />
               </div>
               <div className="content">
                 <h4>Balance Transfer</h4>
