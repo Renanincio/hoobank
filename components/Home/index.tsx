@@ -13,7 +13,7 @@ export const HomePage = () => {
         <HomeContentLeft>
           <div className="contentLeft">
             <p className="discount">
-              <img src="/image/Discount.svg" alt="discount" /> <span>20%</span>{" "}
+              <img src="/image/discount.svg" alt="discount" /> <span>20%</span>{" "}
               discount for <span>1 mounth</span> account
             </p>
             <h1>
