@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../../styles/styledGlobal";
-import { star, shield, send } from '../../public/image';
 import {
   FeaturesContainer,
   FeaturesContentLeft,
@@ -29,7 +28,7 @@ export const Features = () => {
           <ul>
             <li>
               <div className="img">
-                <img src={star} alt="star" />
+                <img src="../../public/image/star.svg" alt="star" />
               </div>
               <div className="content">
                 <h4>Rewards</h4>
@@ -43,7 +42,7 @@ export const Features = () => {
 
             <li>
               <div className="img">
-                <img src={shield} alt="shield" />
+                <img src="../../public/image/shield.svg" alt="shield" />
               </div>
               <div className="content">
                 <h4>100% Secured</h4>
@@ -57,7 +56,7 @@ export const Features = () => {
 
             <li>
               <div className="img">
-                <img src={send} alt="Send" />
+                <img src="../../public/image/send.svg" alt="Send" />
               </div>
               <div className="content">
                 <h4>Balance Transfer</h4>

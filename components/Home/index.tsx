@@ -5,7 +5,6 @@ import {
   HomeContentRight,
   HomeFooter,
 } from "./styles";
-import { discount } from "../../public/image";
 
 export const HomePage = () => {
   return (
@@ -14,7 +13,7 @@ export const HomePage = () => {
         <HomeContentLeft>
           <div className="contentLeft">
             <p className="discount">
-              <img src={discount} alt="discount" /> <span>20%</span>{" "}
+              <img src="../../public/image/discount.svg" alt="discount" /> <span>20%</span>{" "}
               discount for <span>1 mounth</span> account
             </p>
             <h1>
